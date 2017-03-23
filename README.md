@@ -60,3 +60,12 @@ Continuous Integration and Delivery
 Acknowledgements
 ========
 [See who has been contributing to RestComm](http://www.telestax.com/opensource/acknowledgments/)
+
+
+# CL Continue
+
+### Links
+* http://documentation.telestax.com/core/sip_servlets/SIP_Servlets_Server_User_Guide.html#_getting_started_with_mss_tomcat_as7
+* [2.2. Getting Started with Restcomm SIP Servlets for Tomcat 7](http://documentation.telestax.com/core/sip_servlets/SIP_Servlets_Server_User_Guide.html#_getting_started_with_mss_tomcat_as7)
+* [RestComm sip-servlets GitHub](https://github.com/chealwoo/sip-servlets)
+* download sip-servlet build (https://mobicents.ci.cloudbees.com/view/SIP%20Servlets/job/RestcommSipServlets-Release/lastSuccessfulBuild/artifact/)
