@@ -1,2 +1,2 @@
-copy C:\code\samples\webRTC\sip-servlets\sip-servlets-examples\click-to-call\target\click-to-call-servlet-3.0.0-SNAPSHOT.war C:\bin\restcomm-sip-servlets-3.1.773-apache-tomcat-8.0.26\webapps\click2call.war
-copy C:\code\samples\webRTC\sip-servlets\sip-servlets-examples\click-to-call\click2call-dar.properties C:\bin\restcomm-sip-servlets-3.1.773-apache-tomcat-8.0.26\conf\dars\mobicents-dar.properties
+copy C:\code\samples\webRTC\sip-servlets\sip-servlets-examples\click-to-call\target\click-to-call-servlet-3.0.0-SNAPSHOT.war C:\bin\restcomm-sip-servlets-3.1.773-apache-tomcat-7.0.64\webapps\click2call.war
+copy C:\code\samples\webRTC\sip-servlets\sip-servlets-examples\click-to-call\click2call-dar.properties C:\bin\restcomm-sip-servlets-3.1.773-apache-tomcat-7.0.64\conf\dars\mobicents-dar.properties

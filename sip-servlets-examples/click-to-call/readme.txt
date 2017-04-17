@@ -25,7 +25,7 @@ Note that path="/click2call" is important.
 Usage
 -----
 
-You can now run Tomcat or JBoss and navigate to http://localhost:8080/click2call/.
+You can now run Tomcat or JBoss and navigate to http://localhost:8080/click2call/ (https://localhost:8443/click2call/).
 If you have no registered SIp clients you will be asked to register at least two.
 Configure your SIP clients to use the sip servlets server as a register and proxy.
 By default it will accept any password, see below for instrcutions how to enable
