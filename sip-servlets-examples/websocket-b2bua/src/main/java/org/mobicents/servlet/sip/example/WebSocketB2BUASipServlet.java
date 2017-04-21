@@ -38,6 +38,7 @@ import javax.servlet.sip.SipURI;
 import javax.servlet.sip.TimerListener;
 
 import org.apache.log4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This example shows a simple websocket app
@@ -47,7 +48,8 @@ import org.apache.log4j.Logger;
  *
  */
 public class WebSocketB2BUASipServlet extends SipServlet implements TimerListener {
-	private static Logger logger = Logger.getLogger(WebSocketB2BUASipServlet.class);
+//	private static Logger logger = Logger.getLogger(WebSocketB2BUASipServlet.class);
+	private final static org.slf4j.Logger logger = LoggerFactory.getLogger(WebSocketB2BUASipServlet.class);
 	private static final long serialVersionUID = 1L;
 	private static final String CONTENT_TYPE = "text/plain;charset=UTF-8";
 	
@@ -58,7 +60,8 @@ public class WebSocketB2BUASipServlet extends SipServlet implements TimerListene
 	
 	@Override
 	public void init(ServletConfig servletConfig) throws ServletException {
-		logger.info("the simple sip servlet has been started");
+		logger.info("The simple Web sip servlet has been started {} \n {}", "SNAPSHOT-0.0.1",
+				    "======================================================================");
 		super.init(servletConfig);
 	}
 
